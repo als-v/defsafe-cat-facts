@@ -3,7 +3,7 @@
 This is a Nuxt.js project that displays random cat facts. 
 The project uses Pinia for state management and makes requests to a cat facts API.
 
-## Instalação
+## Installation
 
 1. Clone the Repository:
 
