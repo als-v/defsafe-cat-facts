@@ -8,7 +8,7 @@ import {
 
 test('It initially renders only the default message.', () => {
   const wrapper = mount(CatInfo);
-  expect(wrapper.text()).toContain('CAT FACT:  GET A RANDOM CAT FACT');
+  expect(wrapper.text()).toContain('CAT FACT: Loading... GET A RANDOM CAT FACT');
   wrapper.unmount();
 });
 

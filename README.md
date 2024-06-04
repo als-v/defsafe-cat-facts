@@ -17,6 +17,11 @@ cd the-cat-facts
 npm install
 ```
 
+- Testing
+```bash
+npm run test
+```
+
 - Starting the Development Server
 ```bash
 npm run dev
