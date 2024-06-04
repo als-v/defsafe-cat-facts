@@ -9,7 +9,7 @@ export const useCatStore = defineStore({
     actions: {
         async getFact() {
             this.fact = 'Loading...'
-            
+
             if (this.loading) {
                 return;
             }
@@ -17,11 +17,14 @@ export const useCatStore = defineStore({
             this.loading = true;
 
             try {
+                // get data from server
                 const response = await fetch('/api/catFact');
+
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
                 
+                // response from server
                 const responseJson = await response.json();
                 this.fact = responseJson.fact;
 

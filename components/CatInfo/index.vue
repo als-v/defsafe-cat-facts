@@ -33,6 +33,7 @@ export default {
         }
     },
     methods: {
+       // get new fact from pinia store
         async getFact() {
             if (this.loading) {
                 return;
@@ -46,6 +47,7 @@ export default {
         },
     },
     async created() {
+        // get initial fact on init component
         this.loading = true;
         await useCatStore().getFact();
         this.loading = false;
