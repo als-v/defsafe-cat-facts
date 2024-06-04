@@ -34,11 +34,15 @@ export default {
     },
     methods: {
         async getFact() {
+            if (this.loading) {
+                return;
+            }
+            
             this.loading = true;
             setTimeout(async () => {
                 await useCatStore().getFact();
                 this.loading = false;
-            }, 1000);
+            }, 500);
         },
     },
     created() {

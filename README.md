@@ -1,26 +1,26 @@
 # The Cat Facts Project
 
-Este é um projeto em Nuxt.js que exibe fatos aleatórios sobre gatos. 
-O projeto utiliza Pinia para gerenciamento de estado, e faz requisições a uma API de fatos sobre gatos.
+This is a Nuxt.js project that displays random cat facts. 
+The project uses Pinia for state management and makes requests to a cat facts API.
 
 ## Instalação
 
-1. Clone o repositório:
+1. Clone the Repository:
 
 ```bash
 git clone git@github.com:als-v/defsafe-cat-facts.git
 cd the-cat-facts
 ```
 
-- Instalação de dependencias
+- Dependency Installation
 ```bash
 npm install
 ```
 
-- Inicialização do servidor de desenvolvimento
+- Starting the Development Server
 ```bash
 npm run dev
 ```
 
-O projeto estará disponível em http://localhost:3000.
+The project will be available at http://localhost:3000.
 

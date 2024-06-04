@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <DashboardLayout />
-  </div>
+  <DashboardLayout />
 </template>
 
 <script>

@@ -6,13 +6,13 @@ import {
   expect
 } from 'vitest'
 
-test('Renderiza inicialmente apenas a mensagem padrão', () => {
+test('It initially renders only the default message.', () => {
   const wrapper = mount(CatInfo);
   expect(wrapper.text()).toContain('CAT FACT:  GET A RANDOM CAT FACT');
   wrapper.unmount();
 });
 
-test('Renderiza o primeiro fato', async () => {
+test('It renders the first fact.', async () => {
   const wrapper = mount(CatInfo);
   await wrapper.vm.$nextTick();
   await useCatStore().getFact()
@@ -20,7 +20,7 @@ test('Renderiza o primeiro fato', async () => {
   wrapper.unmount();
 });
 
-test('Renderiza o segundo fato quando o botão é pressionado', async () => {
+test('It renders the second fact when the button is pressed.', async () => {
   const wrapper = mount(CatInfo);
   const button = wrapper.find('button');
   await button.trigger('click');
