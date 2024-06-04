@@ -1,5 +1,5 @@
 <template>
-    <div class=" min-w-52 lg:w-auto lg:flex lg:flex-col p-11 text-xl ml-10" :class="loading ? 'animate-pulse' : ''">
+    <div class=" min-w-52 lg:w-auto lg:flex lg:flex-col p-11 text-xl lg:ml-10" :class="loading ? 'animate-pulse' : ''">
         <div class="text-[#22223B] font-semibold mb-11">
             CAT FACT:
         </div>
@@ -8,7 +8,7 @@
         </div>
         <div>
             <button @click="getFact()"
-                class="min-w-60 lg:max-w-64  min-w-64 max-h-12 bg-[#4A4E69] hover:bg-[#22223B] text-white font-bold border border-[#4A4E69] rounded w-full text-sm text-center flex mt-16 p-3 whitespace-nowrap">
+                class="shadow-xl min-w-60 lg:max-w-64  min-w-64 max-h-12 bg-[#4A4E69] hover:bg-[#22223B] text-white font-bold border border-[#4A4E69] rounded w-full text-sm text-center flex mt-16 p-3 whitespace-nowrap">
                 <MdiIcon icon="mdiRefresh" :style="{ fontSize: '20px' }" />
                 <p class="ml-2">
                     GET A RANDOM CAT FACT
