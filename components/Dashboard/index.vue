@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full min-h-screen md:h-screen lg:no-scrollbar lg:overflow-hidden">
+    <div class="w-full min-h-screen  lg:no-scrollbar lg:overflow-hidden">
         <div>
             <Header></Header>
         </div>
