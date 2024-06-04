@@ -3,7 +3,7 @@
         <div class="text-[#22223B] font-semibold mb-11">
             CAT FACT:
         </div>
-        <div class="overflow-scroll max-h-80 text-[#4A4E69] lg:min-w-96 lg:max-w-52 md:min-w-96 md:max-w-52">
+        <div class="overflow-auto max-h-80 text-[#4A4E69] lg:min-w-96 lg:max-w-52 md:min-w-96 md:max-w-52">
             {{ catFact }}
         </div>
         <div>

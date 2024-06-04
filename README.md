@@ -1,75 +1,26 @@
-# Nuxt 3 Minimal Starter
+# The Cat Facts Project
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Este é um projeto em Nuxt.js que exibe fatos aleatórios sobre gatos. 
+O projeto utiliza Pinia para gerenciamento de estado, e faz requisições a uma API de fatos sobre gatos.
 
-## Setup
+## Instalação
 
-Make sure to install the dependencies:
+1. Clone o repositório:
 
 ```bash
-# npm
+git clone git@github.com:als-v/defsafe-cat-facts.git
+cd the-cat-facts
+```
+
+- Instalação de dependencias
+```bash
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+- Inicialização do servidor de desenvolvimento
 ```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+O projeto estará disponível em http://localhost:3000.
 
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
